@@ -1,17 +1,15 @@
-# AZURE-CICD-Deployment-with-Github-Actions
-
 ## Save pass:
 
-xxxxxxx
+xxxxxx
 
 
 ## Run from terminal:
 
-docker build -t flasksimpleapp.azurecr.io/mltest:latest .
+docker build -t bappyapp.azurecr.io/mltest:latest .
 
-docker login flasksimpleapp.azurecr.io
+docker login bappyapp.azurecr.io
 
-docker push flasksimpleapp.azurecr.io/mltest:latest
+docker push bappyapp.azurecr.io/mltest:latest
 
 
 ## Deployment Steps:
